@@ -1,0 +1,5 @@
+alias fa='find / -type f -name $1 2>/dev/null'
+alias untar='tar -zxvf'
+alias lt='ls --human-readable --size -1 -S --classify'
+alias bashrc='vim $HOME/.bashrc'
+alias python='python3'
