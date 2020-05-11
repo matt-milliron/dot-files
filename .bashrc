@@ -192,3 +192,6 @@ export LESS_TERMCAP_us=$(printf '\e[04;36m') # enter underline mode – cyan
 #POWERLINE_BASH_CONTINUATION=1
 #POWERLINE_BASH_SELECT=1
 #. /home/matt/.local/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
+
+#Set terminal mode to vi 
+set -o vi
